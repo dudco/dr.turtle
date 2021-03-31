@@ -1,0 +1,64 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_ble_lib (2.3.2):
+    - Flutter
+    - MultiplatformBleAdapter (~> 0.1.8)
+  - flutter_blue (0.0.1):
+    - Flutter
+    - flutter_blue/Protos (= 0.0.1)
+  - flutter_blue/Protos (0.0.1):
+    - Flutter
+    - Protobuf (~> 3.11.4)
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - MultiplatformBleAdapter (0.1.8)
+  - "permission_handler (5.1.0+2)":
+    - Flutter
+  - Protobuf (3.11.4)
+  - Toast (4.0.0)
+  - url_launcher (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_ble_lib (from `.symlinks/plugins/flutter_ble_lib/ios`)
+  - flutter_blue (from `.symlinks/plugins/flutter_blue/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MultiplatformBleAdapter
+    - Protobuf
+    - Toast
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_ble_lib:
+    :path: ".symlinks/plugins/flutter_ble_lib/ios"
+  flutter_blue:
+    :path: ".symlinks/plugins/flutter_blue/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_ble_lib: 675f6ceaa6cd6a675bba408b705042458a782101
+  flutter_blue: eeb381dc4727a0954dede73515f683865494b370
+  fluttertoast: 6122fa75143e992b1d3470f61000f591a798cc58
+  MultiplatformBleAdapter: bdfdd698ea5d816f0f389eda13d5b07a1bc74b59
+  permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
+  Protobuf: 176220c526ad8bd09ab1fb40a978eac3fef665f7
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  url_launcher: 6fef411d543ceb26efce54b05a0a40bfd74cbbef
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.9.3
